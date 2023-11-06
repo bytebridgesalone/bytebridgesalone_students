@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #eafffa;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .school-name {
+    
+} */
+
+ul, li {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+} 
+
+a {
+    background: black;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    color: gold;
+    border: 2px solid black;
+
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.country {
+    display: grid;
+    margin: 0;
+}
+
+.green {
+    padding: 50px;
+    background: #006600;
+    border: 1px solid #3f3f3f;
+    margin: 0;
+}
+
+.white {
+    padding: 50px;
+    background: #fff;
+    border: 1px solid #3f3f3f;
+}
+
+.blue {
+    padding: 50px;
+    background: #000066;
+    border: 1px solid #3f3f3f;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.project-one {
+    color: #fff;
+    display: inline-block;
+    background: #006600;
+    padding: 100px;
+    border: 2px solid #000066;
+}
+
+.project-two {
+    color: #fff;
+    display: inline-block;
+    background: #006600;
+    padding: 100px;
+    border: 2px solid #000066;
+}
+
+.project-three {
+    color: #fff;
+    display: inline-block;
+    background: #006600;
+    padding: 100px;
+    border: 2px solid #000066;
+}
+
+.project-four {
+    color: #fff;
+    display: inline-block;
+    background: #006600;
+    padding: 100px;
+    border: 1px solid #000066;
+}
+
+.join-us {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: space-evenly;
+
+}
+
+.welcome-note {
+    text-align: left;
+    font-size: 50px;
+    margin:calc(45vh - 220px) auto;
+    /* height:540px;  */
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+
+}
+
+.join-content {
+    font-size: 19px;
+    background: black;
+    color: #bebebe;
+    border: 2px solid gold;
+    padding: 25px;
+    text-align: left;
+ }
+
+.join-text {
+    background: black;
+    font-size: 25px;
+    color: gold;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+    border: 1.5px solid gold;
+    box-shadow: 0 5px 35px -8px #006600; 
+
+}
+
+.contact-form {
+    text-align: center;
+    text-transform: uppercase;
+    width:500px;
+    height:540px;
+    background: black;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #eafffa;
+    margin:calc(45vh - 220px) auto;
+    padding:25px 35px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    border: 1px solid #c99001;
+}
+
+h2 {
+    margin:10px auto;
+    padding-bottom:10px;
+    width: 250px;
+    color:gold;
+    border-bottom:3px solid #59595e
+}
+
+input {
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    transition:all .3s;
+    border-bottom:2px solid #59595e;
+    color: #eafffa;
+}
+
+input:focus {
+    border-bottom:2px solid #90ca90
+}
+
+
+p:before {
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size: 25px;
+    color:#5a5a5a;
+}
+
+button {
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    border:2px solid #eafffa;
+    background: black;
+    color: #006600;
+    cursor:pointer;
+    transition:all .3s;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+button:hover {
+    background: black;
+    color: gold;
+
+}
+
+
+.call-us {
+    font-weight: bold;
+    position: relative;
+    bottom:-70px;
+    right:-40px;
+    background:rgb(0, 119, 16);
+    color:#fff;
+    width:370px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size: 12px;
+    box-shadow:10px 10px 40px -14px #000;
+    text-transform: lowercase;
+}
+
+span, h6 {
+    margin:0 5px 0 15px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    background-image: linear-gradient(to right, #006600, #ffffff, #000066);
+    border: 1px solid #006600;
+    box-shadow:10px 10px 40px -14px #000066;
+    color: #006600;
+    margin-top: 50px;
+    text-shadow: 1px 1px 1.5px #006600;
+}
+
+.fa-solid {
+    color: gold;
+}
+
+.fa-heart:hover {
+    color: #ff0000;
+    font-size: 22px;
+}
+
+/* @media screen and (min-width: 480px) {
+    
+  } */
